@@ -8,8 +8,8 @@
 - `word_frequency.py` → Q05: word frequency sorted output
 - `calculator.py` → Q06: calculator with dict dispatch
 - `grade_classifier.py` → Q07: grade classifier with lambda sort
-- `guessing_game.py` → Q08: guessing game with 7-attempt limit
-- `contact_book.py` → Q09: contact book with Indian names and partial search
+- `guessing_game.py` → Q08: guessing game 
+- `contact_book.py` → Q09: contact book with partial search
 
 ---
 
