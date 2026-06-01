@@ -1,4 +1,4 @@
-# aiml-crash-Ashok_Kumar
+# aiml-crash-Ashok_Kumar Day4- Task
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-blue?logo=pandas&logoColor=white)
@@ -68,5 +68,29 @@ source .venv/bin/activate        # macOS / Linux
 # 3. Install dependencies
 pip install pandas
 ```
-
+## Quick Reference — Key Concepts Covered
+ 
+| Concept | Where Used | Description |
+|---------|------------|-------------|
+| `class` & `__init__` | Task1, Task5, Task8, Task9 | Blueprint for creating objects; `__init__` initializes instance attributes |
+| Instance vs Class Variables | Task1 | Instance variables are unique per object; class variables are shared across all instances |
+| `__str__` | Task1, Task8, Task9 | Dunder method that defines how an object is printed with `print()` |
+| `__add__`, `__eq__`, `__lt__` | Task8 | Dunder methods that enable `+`, `==`, and `<` operators on custom objects |
+| `@total_ordering` | Task8 | Decorator that auto-generates `__le__`, `__gt__`, `__ge__` from `__eq__` and `__lt__` |
+| Inheritance & `super()` | Task5 | Child class inherits from parent; `super()` calls the parent's `__init__` or method |
+| Method Overriding | Task5 | Child class redefines a parent method to change or extend its behaviour |
+| `isinstance()` | Task5 | Checks if an object belongs to a class or any of its parent classes |
+| List Comprehension | Task2 | Concise one-line syntax to build lists: `[expr for item in iterable if condition]` |
+| Dict & Set Comprehension | Task2 | Same idea as list comprehension but produces `{}` dicts or `{}` sets |
+| Type Hints | Task1, Task3, Task4, Task5, Task6, Task8, Task9 | Annotates function parameters and return types for clarity and tooling support |
+| `Optional[T]` | Task4 | From `typing` — means a function can return type `T` or `None` |
+| `csv.writer` vs `DictWriter` | Task3, Task9 | `writer` uses positional lists; `DictWriter` uses named fields — safer and clearer |
+| `json.dump` vs `json.dumps` | Task6 | `dump` writes to a file; `dumps` returns a JSON-formatted string in memory |
+| `@staticmethod` | Task9 | Method that belongs to a class but needs no `self` or `cls` — acts like a plain function |
+| `@classmethod` | Task9 | Method that receives `cls` — useful when subclasses need to return their own type |
+| `math.gcd` | Task8 | Finds the Greatest Common Divisor — used to simplify fractions |
+| Pandas `groupby()` | Task7 | Groups rows by a column value and applies aggregation functions |
+| Pandas `nlargest()` | Task7 | Returns the top N rows by a given column — cleaner than sort + slice |
+| Pandas filtering | Task7 | Boolean indexing: `df[df["col"] > value]` returns matching rows |
+| `if __name__ == "__main__"` | Task4, Task7, Task8, Task9 | Ensures test code only runs when the file is executed directly, not when imported |
 ---
