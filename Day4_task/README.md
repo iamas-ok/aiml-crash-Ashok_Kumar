@@ -32,15 +32,15 @@ aiml-crash-Ashok_Kumar/
 
 | # | File | Description | Run |
 |---|------|-------------|-----|
-| Q1 | `student_report.py` | Student class with grade logic, class variables, and report card output | `python student_report.py` |
-| Q2 | `comprehension_drills.py` | Four list comprehension drills plus dict and set comprehension examples | `python comprehension_drills.py` |
-| Q3 | `file_records.py` | Creates students.csv, calculates averages, writes results.csv using DictWriter | `python file_records.py` |
-| Q4 | `typed_calculator.py` | Fully type-hinted calculator with power, modulo, and Optional[float] divide | `python typed_calculator.py` |
-| Q5 | `library_system.py` | Inheritance demo with LibraryItem base class, Book and EBook child classes | `python library_system.py` |
-| Q6 | `config_manager.py` | JSON config manager with save, load, and update functions | `python config_manager.py` |
-| Q7 | `pandas_explore.py` | Pandas DataFrame analysis — groupby, filtering, nlargest on student data | `python pandas_explore.py` |
-| Q8 | `fraction_class.py` | Custom Fraction class with dunder methods and @total_ordering decorator | `python fraction_class.py` |
-| Q9 | `inventory.py` | Mini inventory system combining OOP with CSV persistence and static methods | `python inventory.py` |
+| [Task1](./student_report.py) | `student_report.py` | Student class with grade logic, class variables, and report card output | `python student_report.py` |
+| [Task2](./comprehension_drills.py) | `comprehension_drills.py` | Four list comprehension drills plus dict and set comprehension examples | `python comprehension_drills.py` |
+| [Task3](./file_records.py) | `file_records.py` | Creates students.csv, calculates averages, writes results.csv using DictWriter | `python file_records.py` |
+| [Task4](./typed_calculator.py) | `typed_calculator.py` | Fully type-hinted calculator with power, modulo, and Optional[float] divide | `python typed_calculator.py` |
+| [Task5](./library_system.py) | `library_system.py` | Inheritance demo with LibraryItem base class, Book and EBook child classes | `python library_system.py` |
+| [Task6](./config_manager.py) | `config_manager.py` | JSON config manager with save, load, and update functions | `python config_manager.py` |
+| [Task7](./pandas_explore.py) | `pandas_explore.py` | Pandas DataFrame analysis — groupby, filtering, nlargest on student data | `python pandas_explore.py` |
+| [Task8](./fraction_class.py) | `fraction_class.py` | Custom Fraction class with dunder methods and @total_ordering decorator | `python fraction_class.py` |
+| [Task9](./inventory.py) | `inventory.py` | Mini inventory system combining OOP with CSV persistence and static methods | `python inventory.py` |
 
 ### Generated Files 
 
