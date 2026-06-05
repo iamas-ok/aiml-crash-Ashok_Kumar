@@ -1,0 +1,10 @@
+{
+    "name": "Aarav Sharma",
+    "age": 21,
+    "role": "Python Intern",
+    "department": "Data & AI",
+    "skills": ["Python", "Git", "Pandas", "NumPy", "SQL"],
+    "projects": ["Student Dashboard", "Data Cleaner", "NumPy Practice"],
+    "score": 88.4,
+    "status": "Active"
+}
