@@ -1,21 +1,64 @@
+# 🖥️ Internship Daily Tasks Repository
 
-## Files Included
-
-- `intro.py` → Q01: extended intro with dict and f-strings
-- `skills_counter.py` → Q02: skills counter with enumerate
-- `even_odd.py` → Q03: even odd checker with try/except
-- `tip_calculator.py` → Q04: tip calculator with return vs print comment
-- `word_frequency.py` → Q05: word frequency sorted output
-- `calculator.py` → Q06: calculator with dict dispatch
-- `grade_classifier.py` → Q07: grade classifier with lambda sort
-- `guessing_game.py` → Q08: guessing game 
-- `contact_book.py` → Q09: contact book with partial search
+![Intern](https://img.shields.io/badge/Intern-Ashok_Kumar-blue)
+![Role](https://img.shields.io/badge/Role-Software%20Development%20Intern-teal)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![GitHub](https://img.shields.io/badge/Tracked%20on-GitHub-black?logo=github)
 
 ---
 
-##  How to Run
+## 📋 Overview
 
-Open terminal in the project folder and run:
+This repository contains the daily tasks, assignments, learning activities, and deliverables completed during my internship at **CodeTrade.io**. Each day's work is organized into its own folder with source code, documentation, notes, and task submissions.
+
+---
+
+## 👤 Internship Details
+
+| Field | Details |
+|-------|---------|
+| **Intern Name** | Ashok Kumar |
+| **Role** | Software Development Intern |
+| **Organization** | CodeTrade.io |
+| **Duration** | [Start Date] – [End Date] |
+
+---
+
+
+---
+
+## ⚙️ Setup & Installation
 
 ```bash
-python filename.py
+# 1. Clone the repository
+git clone https://github.com/iamas-ok/aiml-crash-Ashok_Kumar.git
+cd aiml-crash-Ashok_Kumar
+
+# 2. Create and activate virtual environment
+python -m venv .venv
+source .venv/bin/activate        # macOS / Linux
+.venv\Scripts\activate           # Windows
+
+# 3. Install dependencies
+pip install pandas numpy matplotlib
+```
+
+---
+
+## 📝 Notes
+
+- Each day folder has its own `README.md` with task-specific details and run commands.
+- All scripts include a top comment explaining what the file does.
+- The `.gitignore` file excludes `.venv/` and `__pycache__/` from version control.
+- This repository serves as a complete record of my internship learning journey.
+
+---
+
+## 👨‍💻 Author
+
+**Ashok Kumar**  
+Software Development Intern  
+[![GitHub](https://img.shields.io/badge/GitHub-iamas--ok-black?logo=github)](https://github.com/iamas-ok)
+
+---
+
