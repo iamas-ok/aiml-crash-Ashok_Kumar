@@ -20,7 +20,7 @@ This repository contains the daily tasks, assignments, learning activities, and 
 | **Intern Name** | Ashok Kumar |
 | **Role** | Software Development Intern |
 | **Organization** | CodeTrade.io |
-| **Duration** | [Start Date] – [End Date] |
+| **Duration** | 45 Days |
 
 ---
 
