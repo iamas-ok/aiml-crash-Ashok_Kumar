@@ -1,0 +1,8 @@
+customer_id,customer_name,region,segment,join_date
+C001,Asha Mehta,North,Consumer,2024-01-10
+C002,Rahul Verma,South,Corporate,2024-02-15
+C003,Priya Nair,East,Home Office,2024-03-20
+C004,Imran Khan,West,Consumer,2024-04-05
+C005,Neha Patel,North,Corporate,2024-04-18
+C006,Vikram Singh,South,Consumer,2024-05-02
+C007,,East,Consumer,2024-06-15
