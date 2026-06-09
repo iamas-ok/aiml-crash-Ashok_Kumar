@@ -1,0 +1,8 @@
+product_id,product_name,category,unit_price,cost_price
+P101,Laptop Pro,Electronics,75000.0,55000
+P102,Office Chair,Furniture,12000.0,8000
+P103,Wireless Mouse,Electronics,1500.0,900
+P104,Desk Lamp,Furniture,2500.0,1400
+P105,Monitor 24,Electronics,14000.0,10000
+P106,Standing Desk,Furniture,28000.0,21000
+P107,Keyboard,Electronics,,1200
