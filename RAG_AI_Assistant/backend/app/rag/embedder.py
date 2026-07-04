@@ -1,5 +1,4 @@
-from sentence_transformers import SentenceTransformer
-
+from app.rag.model_manager import ModelManager
 
 class TextEmbedder:
 
@@ -8,7 +7,7 @@ class TextEmbedder:
         model_name: str = "all-MiniLM-L6-v2",
     ):
 
-        self.model = SentenceTransformer(model_name)
+        self.model = ModelManager.get_embedding_model()
 
     def generate_embeddings(self, chunks):
 

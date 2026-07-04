@@ -37,3 +37,15 @@ class ChromaVectorStore:
                     }
                 ],
             )
+    def search(
+         self,
+         query_embedding,
+         top_k: int = 3,
+     ):
+
+                return self.collection.query(
+                    query_embeddings=[
+                        query_embedding.tolist()
+                    ],
+                    n_results=top_k,
+                )

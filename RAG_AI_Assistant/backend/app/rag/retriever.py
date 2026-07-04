@@ -1,5 +1,4 @@
-from sentence_transformers import SentenceTransformer
-
+from app.rag.model_manager import ModelManager
 from app.rag.vector_store import ChromaVectorStore
 
 
@@ -7,9 +6,7 @@ class Retriever:
 
     def __init__(self):
 
-        self.embedder = SentenceTransformer(
-            "all-MiniLM-L6-v2"
-        )
+        self.embedder = ModelManager.get_embedding_model()
 
         self.vector_store = ChromaVectorStore()
 
@@ -24,11 +21,9 @@ class Retriever:
             convert_to_numpy=True,
         )
 
-        results = self.vector_store.collection.query(
-            query_embeddings=[
-                query_embedding.tolist()
-            ],
-            n_results=top_k,
+        results = self.vector_store.search(
+            query_embedding=query_embedding,
+            top_k=top_k,
         )
 
         retrieved_chunks = []
