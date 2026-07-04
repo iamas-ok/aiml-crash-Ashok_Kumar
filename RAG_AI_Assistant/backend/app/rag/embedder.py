@@ -22,11 +22,15 @@ class TextEmbedder:
             )
 
             embeddings.append(
-                {
-                    "file_name": chunk["file_name"],
-                    "chunk": chunk["chunk"],
-                    "embedding": vector,
-                }
-            )
+            {
+                "id": chunk["id"],
+                "file_name": chunk["file_name"],
+                "chunk_id": chunk["chunk_id"],
+                "start_index": chunk["start_index"],
+                "end_index": chunk["end_index"],
+                "chunk": chunk["chunk"],
+                "embedding": vector,
+            }
+        )
 
         return embeddings

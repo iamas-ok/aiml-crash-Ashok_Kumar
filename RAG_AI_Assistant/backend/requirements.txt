@@ -13,3 +13,4 @@ python-multipart
 
 email-validator
 sentence-transformers
+chromadb

@@ -27,9 +27,15 @@ class TextChunker:
                  break
                 
 
+                chunk_id = len(chunks) + 1
+
                 chunks.append(
                     {
+                        "id": f"{document['file_name']}_{chunk_id}",
                         "file_name": document["file_name"],
+                        "chunk_id": chunk_id,
+                        "start_index": start,
+                        "end_index": min(end, len(text)),
                         "chunk": chunk_text,
                     }
                 )
