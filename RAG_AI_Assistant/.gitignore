@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# ChromaDB
+backend/chroma_db/
+
+# Node
+react/node_modules/
+react/dist/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
