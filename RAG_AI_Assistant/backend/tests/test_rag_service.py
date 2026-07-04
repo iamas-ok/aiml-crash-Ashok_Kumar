@@ -1,4 +1,7 @@
+from pprint import pprint
+
 from app.services.rag_service import RAGService
+
 
 rag = RAGService()
 
@@ -8,11 +11,4 @@ response = rag.ask(
     top_k=3,
 )
 
-print("\nANSWER\n")
-print(response["answer"])
-
-print("\nSOURCES\n")
-
-for chunk in response["chunks"]:
-    print("-", chunk["file_name"])
-    
+pprint(response)
