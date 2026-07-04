@@ -8,6 +8,7 @@ from app.models.schema import (
     UserResponse
 )
 from app.models.user import User
+from app.auth.jwt_handler import create_access_token
 
 router = APIRouter(
     prefix="/auth",
@@ -56,6 +57,13 @@ def login_user(user: UserLogin, db: Session = Depends(get_db)):
             detail="Invalid email or password"
         )
 
-    return {
-        "message": "Login successful"
+    access_token = create_access_token(
+    {
+        "sub": existing_user.email
     }
+)
+
+    return {
+    "access_token": access_token,
+    "token_type": "bearer"
+}
