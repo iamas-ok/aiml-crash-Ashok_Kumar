@@ -5,6 +5,7 @@ from app.models.user import User
 from app.api.auth import router as auth_router
 from app.api.system import router as system_router
 from app.api.chat import router as chat_router
+from app.models.chat_history import ChatHistory
 app = FastAPI(
     title="RAG AI Assistant API",
     description="Production-ready RAG AI Assistant Backend",
