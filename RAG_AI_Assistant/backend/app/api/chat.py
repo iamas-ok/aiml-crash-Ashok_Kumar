@@ -40,3 +40,17 @@ def chat(
     )
 
     return response
+
+
+@router.get("/history")
+def get_chat_history(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+
+    chats = ChatService.get_chat_history(
+        db=db,
+        user_id=current_user.id,
+    )
+
+    return chats
